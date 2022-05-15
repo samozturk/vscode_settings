@@ -3,49 +3,49 @@
     "vs-kubernetes": {
         "vscode-kubernetes.minikube-path.mac": "/Users/samet/.vs-kubernetes/tools/minikube/darwin-amd64/minikube"
     },
+    "python.analysis.typeCheckingMode": "basic",
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file",
     "redhat.telemetry.enabled": true,
     "workbench.editor.enablePreview": false,
     "editor.minimap.enabled": false,
     "python.defaultInterpreterPath": "/usr/local/bin/python3",
-    "workbench.colorTheme": "Horizon Dark",
+    "editor.semanticHighlighting.enabled": true,
     "workbench.colorCustomizations": {
-
-        "terminal.background":"#201f2e",
-        "terminal.foreground":"#A89984",
-        "terminalCursor.background":"#A89984",
-        "terminalCursor.foreground":"#A89984",
-        "terminal.ansiBlack":"#454545",
-        "terminal.ansiBlue":"#A3B8EF",
-        "terminal.ansiBrightBlack":"#665C54",
-        "terminal.ansiBrightBlue":"#0D6678",
-        "terminal.ansiBrightCyan":"#8BA59B",
-        "terminal.ansiBrightGreen":"#5ACCAF",
-        "terminal.ansiBrightMagenta":"#8F4673",
-        "terminal.ansiBrightRed":"#E0AF85",
-        "terminal.ansiBrightWhite":"#FDF4C1",
-        "terminal.ansiBrightYellow":"#C8C874",
-        "terminal.ansiCyan":"#50CACD",
-        "terminal.ansiGreen":"#80C990",
-        "terminal.ansiMagenta":"#8F4673",
-        "terminal.ansiRed":"#EFA6A2",
-        "terminal.ansiWhite":"#A89984",
-        "terminal.ansiYellow":"#FAC03B",
-
+        "terminal.background": "#2a2938",
+        "terminal.foreground": "#A89984",
+        "terminalCursor.background": "#A89984",
+        "terminalCursor.foreground": "#A89984",
+        "terminal.ansiBlack": "#454545",
+        "terminal.ansiBlue": "#A3B8EF",
+        "terminal.ansiBrightBlack": "#665C54",
+        "terminal.ansiBrightBlue": "#0D6678",
+        "terminal.ansiBrightCyan": "#8BA59B",
+        "terminal.ansiBrightGreen": "#5ACCAF",
+        "terminal.ansiBrightMagenta": "#e770ba",
+        "terminal.ansiBrightRed": "#E0AF85",
+        "terminal.ansiBrightWhite": "#FDF4C1",
+        "terminal.ansiBrightYellow": "#C8C874",
+        "terminal.ansiCyan": "#50CACD",
+        "terminal.ansiGreen": "#80C990",
+        "terminal.ansiMagenta": "#dd82ba",
+        "terminal.ansiRed": "#EFA6A2",
+        "terminal.ansiWhite": "#A89984",
+        "terminal.ansiYellow": "#FAC03B",
     },
-    
-    "terminal.integrated.defaultProfile.osx": "bash",
-
-
+    "terminal.integrated.defaultProfile.osx": "zsh",
     // Editor settings
     "editor.tabSize": 4,
-    "editor.rulers": [80, 120],
+    "editor.rulers": [
+        80,
+        120
+    ],
     "editor.renderWhitespace": "trailing",
     "editor.suggestSelection": "first",
     "terminal.integrated.defaultProfile.windows": "Command Prompt",
     // Explorer settings
     "explorer.confirmDragAndDrop": false,
     "explorer.confirmDelete": false,
-    "window.zoomLevel": 0,
     // Files settings
     "files.autoSave": "onFocusChange",
     "files.associations": {
@@ -62,7 +62,7 @@
     "python.linting.flake8Enabled": true,
     "python.linting.pylintEnabled": true,
     "python.linting.mypyEnabled": true,
-    "python.formatting.provider": "autopep8",
+    "python.formatting.provider": "black",
     "python.languageServer": "Pylance",
     "python.showStartPage": false,
     "jupyter.alwaysTrustNotebooks": true,
@@ -82,5 +82,21 @@
     },
     // Other extensions
     "formatContextMenu.closeAfterSave": true,
-    "terminal.integrated.inheritEnv": false
+    "terminal.integrated.inheritEnv": false,
+    "editor.accessibilitySupport": "off",
+    "terminal.integrated.env.osx": {
+        "FIG_NEW_SESSION": "1"
+    },
+    "workbench.colorTheme": "LaserWave Italic",
+    "sourcery.token": "user__gLTGKWPY1NKBOz13Agh9aUkL2NkhtuyL_pR5TIpRgD_2KsQdsKVGbNCC94",
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "jupyter.askForKernelRestart": false,
+    "bracket-pair-colorizer-2.depreciation-notice": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "go.toolsManagement.autoUpdate": true,
+    "gopls": {
+        "experimentalWorkspaceModule": true,
+    }
 }
